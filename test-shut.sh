@@ -15,4 +15,4 @@
 # limitations under the License.
 #
 
-logger "Instance test-01 is shutting down!"
+logger "Instance test-02 is shutting down!"
