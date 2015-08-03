@@ -15,13 +15,13 @@
 # limitations under the License.
 #
 
-# retireve the IP address of your Cloud SQL instance
+# retrieve the IP address of your Cloud SQL instance
 SQL_IP=$(curl \
 "http://metadata/computeMetadata/v1/instance/\
 attributes/sql-ip" \
 -H "Metadata-Flavor: Google")
 
-# retireve the password of your Cloud SQL instance
+# retrieve the password of your Cloud SQL instance
 SQL_PW=$(curl \
 "http://metadata/computeMetadata/v1/instance/\
 attributes/sql-pw" \
