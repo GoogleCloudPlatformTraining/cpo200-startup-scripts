@@ -30,4 +30,4 @@ attributes/sql-pw" \
 docker run \
 -e CLOUDSQL_IP=$SQL_IP \
 -e CLOUDSQL_PWD=$SQL_PW \
--p 80:80 cpo201/guestbook
+-p 80:80 cpo200/guestbook
