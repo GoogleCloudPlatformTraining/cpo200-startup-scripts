@@ -15,4 +15,4 @@
 # limitations under the License.
 #
 
-logger "Instance test-02 is shutting down!"
+gsutil cp /var/log/startupscript.log gs://<startup-scripts-bucket>
