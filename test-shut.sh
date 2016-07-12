@@ -15,4 +15,4 @@
 # limitations under the License.
 #
 
-gsutil cp /var/log/startupscript.log gs://<startup-scripts-bucket>
+gsutil cp /var/log/daemon.log gs://<startup-scripts-bucket>
