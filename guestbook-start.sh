@@ -14,7 +14,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-#
 
 # set IP address of your Cloud SQL Proxy
 SQL_IP="127.0.0.1"
