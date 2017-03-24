@@ -40,4 +40,4 @@ attributes/sql-connection-name" \
 -H "Metadata-Flavor: Google")
 
 # run the Cloud SQL proxy
-./cloud_sql_proxy -instances=$SQL_CONNECTION_NAME=tcp:3306
+/proxy/cloud_sql_proxy -instances=$SQL_CONNECTION_NAME=tcp:3306
